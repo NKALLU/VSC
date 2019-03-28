@@ -6,7 +6,7 @@
     httpd_packages:
       - httpd
       - mod_wsgi
-    apache_test_message: I feeeeeeeeeeeeeeeeeeeeeeeeeeeel awesome sometimes , 1% i feel sxxt
+    apache_test_message: I feel 99% awesome sometimes , 1% i feel sxxt
     apache_webserver_port: 80
 
   tasks:
