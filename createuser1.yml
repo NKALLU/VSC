@@ -1,7 +1,7 @@
 ---
 - name: Ensure apache is installed and started
   become: yes
-  hosts: 192.168.209.139
+#hosts: 192.168.209.139
 
   tasks:
   - name: create couple of user for testing
