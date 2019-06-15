@@ -5,9 +5,9 @@
 
   tasks:
   - name: create couple of user for testing
-  user:
-    name: "{{ item }}"
-    state: present
+    user:
+      name: "{{ item }}"
+      state: present
     with_items:
-    - testuser1
-    - testuser2
+      - testuser1
+      - testuser2
