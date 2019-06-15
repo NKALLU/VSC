@@ -1,0 +1,14 @@
+---
+- name: Ensure apache is installed and started
+  become: yes
+  hosts: 192.168.209.139
+
+  tasks:
+  - name: create couple of user for testing
+  user:
+    name: "{{ item }}"
+    state: present
+    groups: "wheel"
+    with_items:
+    - testuser1
+    - testuser2
