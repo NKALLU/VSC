@@ -1,6 +1,6 @@
 ---
 - name: Ensure apache is installed and started
-  hosts: web
+  hosts: centos7m5
   become: yes
 
   tasks:
